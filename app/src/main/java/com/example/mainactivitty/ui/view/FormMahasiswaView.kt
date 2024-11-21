@@ -116,6 +116,7 @@ fun Latihaninput(modifier: Modifier = Modifier) {
     }
 }
 
+
 @Composable
 fun DetailSurat(judul: String, isinya: String) {
     Row(
