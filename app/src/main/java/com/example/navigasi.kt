@@ -25,7 +25,7 @@ enum class Halaman {
 }
 
 @Composable
-fun Navigasi(
+fun navigasi(
     modifier: Modifier = Modifier,
     viewModel: MahasiswaViewModel = viewModel(),
     navHost: NavHostController = rememberNavController()
@@ -52,6 +52,7 @@ fun Navigasi(
                     }
                 )
             }
+
 
             // Halaman Data (tambahkan komponen UI sesuai kebutuhan)
             composable(route = Halaman.Data.name) {
